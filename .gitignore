@@ -137,3 +137,47 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Output Tailwind
+dist/
+*.css.map
+
+# Logs
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Build cache
+.cache/
+.parcel-cache/
+.next/
+out/
+.svelte-kit/
+
+# Misc
+*.tmp
+*.swp
+*.swo
+
