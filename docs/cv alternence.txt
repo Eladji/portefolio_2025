@@ -1,0 +1,80 @@
+ELADJI FOFANA
+Étudiant en Bachelor Informatique - titulaire
+d’un baccalauréat STI2D - je souhaite intégrer
+une alternance afin de concevoir et déployer
+des solutions IoT et d’acquérir une expertise
+en matériel intelligent.
+
+EXPÉRIENCES PROFESSIONNELLES
+
+POUR ME CONTACTER
+
+Portable : 06 62 41 54 18
+Courriel : eladji.pro@gmail.com
+Adresse : 78 Yvelines
+
+COMPÉTENCES
+Modélisation sur logiciels CAD
+(Solidworks, Fusion) et impression 3D
+Compétences algorithmiques de
+lecture, compréhension et écriture de
+code
+Développement en langages Rust, C,
+Python, C++, PhP, Javascript, React,
+Golang
+Programmation orientée pbjets
+Conception d'interfaces utilisateur
+Gestion d’infrastructures réseau,
+notamment Cisco
+Développement Arduino et ESPressif
+Gestion des serveurs sous Unix
+
+CENTRES D'INTÉRÊTS
+Informatique : développement de
+projets personnels
+Sport : participation à des
+compétitions et événements sportifs
+Configuration de neovim
+
+Projets :
+Tamagotchi Blue team
+Conception intégrale d’un Tamagochi capable de détecter les
+cyberattaques de bas niveau sur un réseau surveillé et d’identifier les
+attaques de type spam Bluetooth en faisant usage du framework
+espressif.
+
+Bot de centralisation d’information
+Codage d’un bot en langage Python rassemblant les informations de
+différentes sources d’information libres de droits pour améliorer leur
+accessibilité.
+
+Interface graphique de librairie
+Création d’une interface graphique pour une bibliothèque permettant
+le téléchargement de contenus en streaming libre de droits, qui n’était
+jusque-là accessible qu’en ligne de commande. Il est actuellement en
+cours de développement.
+
+Base de donnée de gestion de data
+Base de données programmée en Go avec systèmes de filtres et gestion
+de l’information optimisée, structurée et filtrée.
+
+Stages :
+Dévops chez HeyCharles
+L’objectif de ce stage était de moderniser la communication au sein de
+l’entreprise
+j’ai pu aussi m’occuper de la gestion des serveurs
+
+Développement chez NETDATA Innovation
+L’objectif de ce stage est de développer une solution en équipe en
+faisant usage de machine learning pour choisir l’emplacement idéal
+d’installation de points relais en France. Le développement du Backend
+m’a était assigné sur ce projet.
+
+PARCOURS DE FORMATION
+École Hexagone Versailles
+2023 - Present BAC+2
+
+Lycée Les Pierre Vives
+BAC Technologique - 2023
+
+

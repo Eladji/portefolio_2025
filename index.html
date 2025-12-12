@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Simmons - Portfolio Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Switzer:wght@300;400;500&display=swap');
+        
+        * {
+            font-family: 'Switzer', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-[#1a1a1a] text-white">
+    <!-- Navigation & Hero Section -->
+    <header class="sticky top-0 z-100 bg-[#1a1a1a] h-[100px] flex items-center border-b border-transparent">
+        <nav class="w-full max-w-[1440px] mx-auto px-8 flex justify-between items-center">
+            <div class="flex items-baseline gap-1">
+                <span class="text-2xl font-normal tracking-[-0.72px]">Eladji Fofana</span>
+                <span class="text-[11px] font-normal tracking-[-0.33px]">Dev</span>
+            </div>
+            <ul class="flex list-none gap-10 items-center">
+                <li><a href="#work" class="text-xl font-normal text-white hover:opacity-70 transition-opacity tracking-normal">Projets</a></li>
+                <li><a href="#skills" class="text-xl font-normal text-white hover:opacity-70 transition-opacity tracking-normal">Compétences</a></li>
+                <li><a href="#contact" class="text-xl font-normal text-white border border-white px-6 py-3 rounded-lg hover:opacity-70 transition-opacity tracking-normal">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bg-[#1a1a1a] min-h-[875px] flex items-start pt-[120px] px-8 pb-8 relative overflow-hidden">
+        <div class="flex-1 flex flex-col justify-start pt-10">
+            <h1 class="text-[5rem] md:text-[6rem] font-light leading-tight tracking-tight mb-10 max-w-2xl text-[#5f5f5f]">
+                Bonjour — je suis <span class="text-white">Eladji, développeur fullstack</span> en formation chez École Hexagone
+            </h1>
+            <a href="#contact" class="bg-[#d94100] text-white px-8 py-4 rounded-lg font-medium text-xl leading-tight hover:opacity-90 transition-opacity inline-block">Me contacter</a>
+        </div>
+        <div class="absolute left-[350px] top-[230px] w-40 h-24 bg-[#010101] overflow-hidden rounded">
+            <img src="public/photo de profile.jpg" alt="Eladji Fofana" class="w-full h-full object-cover">
+        </div>
+    </section>
+
+    <!-- À propos / About Section -->
+    <section id="about" class="bg-[#1a1a1a] py-20 px-8">
+        <div class="max-w-[1000px] mx-auto flex flex-col md:flex-row items-center gap-8">
+                <div class="w-full md:w-1/3">
+                <img src="public/photo de profile.jpg" alt="Portrait d'Eladji Fofana" class="w-56 h-56 rounded-full object-cover mx-auto md:mx-0 bg-[#0a0a0a]">
+            </div>
+            <div class="w-full md:w-2/3 text-[#d1d1d1]">
+                <h2 class="text-4xl font-medium text-white mb-4">À propos</h2>
+                <p class="text-lg leading-relaxed">Je m'appelle Eladji Fofana, étudiant en Bachelor Informatique à École Hexagone. Je suis passionné par le développement fullstack, l'IoT et les solutions intelligentes. Grâce à mes expériences en stage et mes projets personnels, j'ai développé une expertise en backend (Python, Go) et frontend (React, JavaScript).</p>
+                <p class="mt-4 text-[#adadad]">Technos : Python, JavaScript, React, Go, Rust, C++, Arduino, Unix. Ce portfolio présente mes projets et compétences techniques.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="bg-[#232323] py-[100px] px-8 min-h-[1625px] relative">
+        <div class="max-w-[1440px] mx-auto">
+            <div class="flex justify-between items-center mb-[150px]">
+                <h2 class="text-[5rem] font-light leading-tight tracking-tight text-white whitespace-nowrap">Projets</h2>
+                <button class="bg-transparent text-white border border-white px-8 py-4 rounded-lg font-medium text-xl hover:bg-white hover:text-[#232323] transition-all font-normal">View All</button>
+            </div>
+
+            <div class="grid grid-cols-2 gap-[33px]">
+                <div class="col-span-2 row-span-2">
+                    <div class="bg-[#181818] h-[517px] overflow-hidden rounded mb-8">
+                        <img src="https://www.figma.com/api/mcp/asset/42f4ffee-e1ca-4a3d-9202-d8a3cebe437e" alt="Project 1" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-4xl font-normal leading-[1.3] text-white tracking-tight mb-3">Project 1</h3>
+                </div>
+
+                <div>
+                    <div class="bg-[#181818] h-[425px] overflow-hidden rounded mb-5">
+                        <img src="https://www.figma.com/api/mcp/asset/40561445-cf1a-4daa-9fca-c7c38e417c85" alt="Project" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-4xl font-normal leading-[1.3] text-white tracking-normal mb-2">Project</h3>
+                    <p class="text-xl font-light leading-[1.3] text-[#adadad] opacity-70 tracking-normal">Mobile App</p>
+                </div>
+
+                <div>
+                    <div class="bg-[#181818] h-[425px] overflow-hidden rounded mb-5">
+                        <img src="https://www.figma.com/api/mcp/asset/2599b262-1663-4e69-ba27-d7eb4f893623" alt="Project" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-4xl font-normal leading-[1.3] text-white tracking-normal mb-2">Project</h3>
+                    <p class="text-xl font-light leading-[1.3] text-[#adadad] tracking-normal">Mobile App</p>
+                </div>
+
+                <div>
+                    <div class="bg-[#181818] h-[425px] overflow-hidden rounded mb-5">
+                        <img src="https://www.figma.com/api/mcp/asset/8a9a33e4-7562-4f13-aa8b-b48eae05452d" alt="Project" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-4xl font-normal leading-[1.3] text-white tracking-normal mb-2">Project</h3>
+                    <p class="text-xl font-light leading-[1.3] text-[#adadad] tracking-normal">Mobile App</p>
+                </div>
+
+                <div>
+                    <div class="bg-[#181818] h-[425px] overflow-hidden rounded mb-5">
+                        <img src="https://www.figma.com/api/mcp/asset/80395f31-88c5-4467-8153-86737fa78550" alt="Project" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-4xl font-normal leading-[1.3] text-white tracking-[-0.64px] mb-2">Project</h3>
+                    <p class="text-xl font-light leading-[1.3] text-[#adadad] tracking-[0.2px]">Mobile App</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-[#1a1a1a] py-[100px] px-8 min-h-[1404px] relative">
+        <div class="max-w-[1440px] mx-auto">
+            <h2 class="text-[4rem] md:text-[5rem] font-light leading-tight tracking-tight text-white whitespace-nowrap mb-20">Compétences</h2>
+            
+            <div class="flex flex-col gap-9 ml-auto w-[610px]">
+                <div class="bg-[#232323] p-8 rounded-lg h-[335px]">
+                    <div class="flex justify-between items-start">
+                        <span class="text-xl font-light leading-[1.3] text-white">01</span>
+                        <h3 class="text-5xl font-normal leading-none text-white tracking-tight">Backend</h3>
+                    </div>
+                    <p class="mt-6 text-xl font-light leading-[1.3] text-[#adadad] tracking-normal max-w-[520px]">Python, Go, Rust, C++. APIs, bases de données optimisées, gestion d'infrastructure et DevOps.</p>
+                    <div class="mt-6">
+                        <div class="w-full bg-[#0f0f0f] h-2 rounded overflow-hidden" aria-hidden="true" data-percentage="90">
+                            <div class="bg-[#d94100] h-2 w-0"></div>
+                        </div>
+                        <p class="text-sm text-[#adadad] mt-2">Expertise: 90%</p>
+                    </div>
+                </div>
+
+                <div class="bg-[#232323] p-8 rounded-lg h-[335px]">
+                    <div class="flex justify-between items-start">
+                        <span class="text-xl font-light leading-[1.3] text-white">02</span>
+                        <h3 class="text-5xl font-normal leading-none text-white tracking-tight">Frontend</h3>
+                    </div>
+                    <p class="mt-6 text-xl font-light leading-normal text-[#adadad] tracking-normal max-w-[520px]">JavaScript, React, HTML/CSS, interfaces modernes et réactives pour une UX optimale.</p>
+                    <div class="mt-6">
+                        <div class="w-full bg-[#0f0f0f] h-2 rounded overflow-hidden" aria-hidden="true" data-percentage="85">
+                            <div class="bg-[#d94100] h-2 w-0"></div>
+                        </div>
+                        <p class="text-sm text-[#adadad] mt-2">Expertise: 85%</p>
+                    </div>
+                </div>
+
+                <div class="bg-[#232323] p-8 rounded-lg h-[335px]">
+                    <div class="flex justify-between items-start">
+                        <span class="text-xl font-light leading-[1.3] text-white">03</span>
+                        <h3 class="text-5xl font-normal leading-none text-white tracking-tight">IoT & Embedded</h3>
+                    </div>
+                    <p class="mt-6 text-xl font-light leading-normal text-[#adadad] tracking-normal max-w-[520px]">Arduino, ESP32, CAD (Solidworks, Fusion), impression 3D et conception de solutions intelligentes.</p>
+                    <div class="mt-6">
+                        <div class="w-full bg-[#0f0f0f] h-2 rounded overflow-hidden" aria-hidden="true" data-percentage="80">
+                            <div class="bg-[#d94100] h-2 w-0"></div>
+                        </div>
+                        <p class="text-sm text-[#adadad] mt-2">Expertise: 80%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="bg-[#232323] py-[100px] px-8 min-h-[656px] flex items-center justify-center">
+        <div class="text-center flex flex-col items-center gap-10">
+            <h2 class="text-[115px] font-light leading-none tracking-[-3.45px] text-white max-w-5xl">
+                Let's create<br>something together
+            </h2>
+            <a href="#contact" class="inline-block bg-[#d94100] text-white px-8 py-4 rounded-lg font-medium text-xl leading-tight hover:opacity-90 transition-opacity">Book a Call</a>
+        </div>
+    </section>
+
+    <!-- Contact Section (form) -->
+    <section id="contact" class="bg-[#232323] py-20 px-8">
+        <div class="max-w-[900px] mx-auto bg-[#181818] p-8 rounded-lg">
+            <h2 class="text-3xl text-white mb-6">Contact</h2>
+            <form id="contactForm" novalidate>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label for="prenom" class="block text-sm text-[#adadad] mb-1">Prénom</label>
+                        <input id="prenom" name="prenom" required class="w-full px-4 py-3 bg-[#0a0a0a] border border-transparent rounded text-white focus:outline-none focus:ring-2 focus:ring-[#d94100]" />
+                        <p id="prenomError" class="text-sm text-red-400 mt-1 hidden">Le prénom est requis.</p>
+                    </div>
+                    <div>
+                        <label for="nom" class="block text-sm text-[#adadad] mb-1">Nom</label>
+                        <input id="nom" name="nom" required class="w-full px-4 py-3 bg-[#0a0a0a] border border-transparent rounded text-white focus:outline-none focus:ring-2 focus:ring-[#d94100]" />
+                        <p id="nomError" class="text-sm text-red-400 mt-1 hidden">Le nom est requis.</p>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <label for="email" class="block text-sm text-[#adadad] mb-1">E-mail</label>
+                    <input id="email" name="email" type="email" required class="w-full px-4 py-3 bg-[#0a0a0a] border border-transparent rounded text-white focus:outline-none focus:ring-2 focus:ring-[#d94100]" />
+                    <p id="emailError" class="text-sm text-red-400 mt-1 hidden">Veuillez saisir une adresse e-mail valide.</p>
+                </div>
+
+                <div class="mt-4">
+                    <label for="objet" class="block text-sm text-[#adadad] mb-1">Objet</label>
+                    <input id="objet" name="objet" required class="w-full px-4 py-3 bg-[#0a0a0a] border border-transparent rounded text-white focus:outline-none focus:ring-2 focus:ring-[#d94100]" />
+                    <p id="objetError" class="text-sm text-red-400 mt-1 hidden">L'objet est requis.</p>
+                </div>
+
+                <div class="mt-4">
+                    <label for="message" class="block text-sm text-[#adadad] mb-1">Message</label>
+                    <textarea id="message" name="message" rows="6" required class="w-full px-4 py-3 bg-[#0a0a0a] border border-transparent rounded text-white focus:outline-none focus:ring-2 focus:ring-[#d94100]"></textarea>
+                    <p id="messageError" class="text-sm text-red-400 mt-1 hidden">Le message est requis.</p>
+                </div>
+
+                    <div class="mt-6">
+                        <button type="submit" class="bg-[#d94100] px-6 py-3 rounded text-white">Envoyer</button>
+                    </div>
+                    <div id="formSuccess" class="hidden mt-4 p-3 rounded bg-green-800 text-green-100">Merci — votre message a bien été pris en compte.</div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#232323] px-8 py-8 border-t border-[#adadad]">
+        <div class="max-w-[1440px] mx-auto">
+            <div class="h-px bg-[#adadad] mb-8"></div>
+            <div class="flex justify-between items-center">
+                <div class="flex gap-10 list-none">
+                    <a href="#" class="text-xl font-normal text-white hover:opacity-70 transition-opacity tracking-normal">Instagram</a>
+                    <a href="#" class="text-xl font-normal text-white hover:opacity-70 transition-opacity tracking-normal">Behance</a>
+                    <a href="#" class="text-xl font-normal text-white hover:opacity-70 transition-opacity tracking-normal">Twitter</a>
+                </div>
+                <p class="text-sm font-normal text-[#adadad] text-center flex-1 tracking-normal">Eladji Fofana. Fullstack Developer</p>
+                <div class="flex gap-4 list-none">
+                    <a href="#" class="text-sm font-normal text-[#adadad] hover:opacity-70 transition-opacity tracking-normal">Style Guide</a>
+                    <a href="#" class="text-sm font-normal text-[#adadad] hover:opacity-70 transition-opacity tracking-normal">Licences</a>
+                    <a href="#" class="text-sm font-normal text-[#adadad] hover:opacity-70 transition-opacity tracking-normal">Changelog</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        (function(){
+            const form = document.getElementById('contactForm');
+            if (!form) return;
+
+            const fields = ['prenom','nom','email','objet','message'];
+
+            function showError(id, msg) {
+                const el = document.getElementById(id + 'Error');
+                if (el) { el.textContent = msg; el.classList.remove('hidden'); }
+            }
+
+            function hideError(id) {
+                const el = document.getElementById(id + 'Error');
+                if (el) { el.classList.add('hidden'); }
+            }
+
+            function validateEmail(email) {
+                return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+            }
+
+            form.addEventListener('submit', async function(e){
+                e.preventDefault();
+                let valid = true;
+                fields.forEach(function(name){
+                    const input = document.getElementById(name);
+                    hideError(name);
+                    if (!input || !input.value.trim()){
+                        showError(name, (name === 'email') ? 'Veuillez saisir une adresse e-mail.' : 'Ce champ est requis.');
+                        valid = false;
+                    }
+                });
+
+                const emailEl = document.getElementById('email');
+                if (emailEl && emailEl.value && !validateEmail(emailEl.value)){
+                    showError('email', 'Veuillez saisir une adresse e-mail valide.');
+                    valid = false;
+                }
+
+                if (!valid) {
+                    const firstError = document.querySelector('#contactForm .text-red-400:not(.hidden)');
+                    if (firstError) firstError.previousElementSibling && firstError.previousElementSibling.focus();
+                    return;
+                }
+
+                // Envoyer au backend
+                const formData = {
+                    prenom: document.getElementById('prenom').value,
+                    nom: document.getElementById('nom').value,
+                    email: document.getElementById('email').value,
+                    objet: document.getElementById('objet').value,
+                    message: document.getElementById('message').value,
+                };
+
+                try {
+                    // Remplacer par ton URL Vercel si différente
+                    const response = await fetch('/api/contact', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(formData),
+                    });
+
+                    const data = await response.json();
+
+                    if (!response.ok) {
+                        showError('prenom', data.error || 'Erreur lors de l\'envoi');
+                        return;
+                    }
+
+                    // Succès
+                    const successEl = document.getElementById('formSuccess');
+                    if (successEl) {
+                        successEl.classList.remove('hidden');
+                        setTimeout(() => successEl.classList.add('hidden'), 5000);
+                    }
+                    form.reset();
+                    const first = document.getElementById(fields[0]);
+                    if (first) first.focus();
+                } catch (error) {
+                    console.error('Erreur réseau:', error);
+                    showError('prenom', 'Erreur de connexion. Vérifiez votre serveur.');
+                }
+            });
+        })();
+        // Animate skill bars after DOM ready
+        document.addEventListener('DOMContentLoaded', function(){
+            document.querySelectorAll('[data-percentage]').forEach(function(el){
+                const pct = parseInt(el.getAttribute('data-percentage') || '0', 10);
+                const inner = el.querySelector('div');
+                if (inner) {
+                    inner.style.width = pct + '%';
+                    inner.classList.add('transition-all', 'duration-700');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

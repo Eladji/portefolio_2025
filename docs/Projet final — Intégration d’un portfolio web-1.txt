@@ -1,0 +1,164 @@
+Projet final - Intégration
+d’un portfolio web
+2FCSS – Frameworks CSS (création d’un portfolio)
+
+Objectif du projet
+• Vous allez maintenant intégrer un portfolio web personnel en respectant,
+au pixel prêt, une maquette choisie parmi celles proposées par la
+communauté Figma : https://www.figma.com/community/portfolio-templates.
+• Le site devra être responsive, propre, accessible, moderne, et publié en
+ligne.
+
+Consignes générales
+Projet final - Intégration d’un portfolio web
+
+Travail individuel (obligatoire)
+• Aucun travail en groupe.
+• Le portfolio doit vous représenter personnellement.
+
+Choix de la maquette
+• Vous devez sélectionner une maquette Figma de type portfolio =>
+https://www.figma.com/community/portfolio-templates.
+• Elle doit être validée par le formateur avant de commencer l’intégration.
+• L’objectif est d’en réaliser une intégration fidèle, au pixel près.
+
+Framework CSS obligatoire
+• Vous devez choisir un Framework CSS parmi ceux parcourus en classe
+: Bootstrap, Tailwind CSS, Bulma ou Foundation.
+•
+
+Vous ne pouvez pas utiliser votre framework CSS maison du TP1.
+
+• Vous pouvez utiliser :
+• les composants du framework choisi,
+• du JavaScript vanilla,
+• le JavaScript interne du framework (ex. : Collapse, Carousel Bootstrap).
+
+• Aucun framework JS (Vue, React…), aucun préprocesseur.
+
+Contenu et aspect du
+portfolio
+Projet final - Intégration d’un portfolio web
+
+Contenu du portfolio (sections ou pages
+obligatoires)
+• Accueil
+• Présentation visuelle, section d’introduction.
+
+• À propos
+• Votre parcours, votre profil, ou description personnelle.
+
+• Compétences
+• Avec un minimum de structure visuelle (icônes, cards, barres, badges, etc.).
+
+• Projets
+• Présentation d’au moins 2 projets réels ou fictifs.
+
+• Contact
+• Un formulaire complet (nom, prénom, e-mail, objet, message)
+•
+Les champs doivent être obligatoires avec messages d’erreur côté front (HTML/JS), pas de
+backend.
+
+Responsive obligatoire
+• Le site doit s’afficher correctement sur :
+• Smartphone ;
+• Tablette ;
+• Écran d’ordinateur portable ;
+• Écran d’ordinateur de bureau.
+
+•
+
+Sans scroll horizontal et avec une adaptation cohérente.
+
+Livrables
+Projet final - Intégration d’un portfolio web
+
+Rendu attendu
+• Vous devez déposer, dans votre espace de travail Wimi :
+• Un lien vers votre dépôt Git complet contenant l’intégralité du code source
+avec un fichier README.md structuré (détails ci-dessous ) ;
+• Un lien vers votre site web hébergé en ligne (GitHub Pages, Netlify ou
+équivalent).
+
+• Le README.md doit contenir :
+• Vos nom et prénom ;
+• Un aperçu du portfolio (captures d’écran ou GIF animé) ;
+• La maquette Figma utilisée (lien obligatoire + captures d’écran) ;
+• La liste des langages, frameworks et technologies utilisées ;
+• Instructions pour lancer le projet en local ;
+• Vos coordonnées (adresse e-mail et/ou LinkedIn).
+
+Deadline
+•
+
+Date limite : dimanche 7 décembre avant 23h59
+
+• Tout rendu en retard sera pénalisé.
+
+Grille d’évaluation
+Axe évalué
+
+Critères observés
+
+Points
+
+1. Respect de la maquette
+
+Fidélité graphique, alignements, tailles, couleurs,
+typographies, proportions (pixel-perfect)
+
+/6
+
+2. Qualité du responsive
+
+Desktop, tablette, mobile ; absence de scroll horizontal ;
+grille maîtrisée
+
+/4
+
+3. Structure & lisibilité du
+code
+
+HTML sémantique, indentation, propreté, nommage,
+absence de code mort
+
+/3
+
+4. Accessibilité et bonnes
+pratiques
+
+Alt sur les images, contrastes, labels du formulaire,
+navigation fluide
+
+/2
+
+5. Fonctionnalités front
+
+Formulaire opérationnel (front), interactions, JS propre
+et utile
+
+/2
+
+6. README et
+déploiement en ligne
+
+README clair + lien fonctionnel + dépôt bien structuré
+
+/2
+
+7. Professional branding
+
+Cohérence, sérieux, cohérence entre vos contenus et les
+sections
+
+/1
+
+Total
+
+/20
+
+Des questions ?
+Chris CHEVALIER – chris.chevalier@ecole-hexagone.com
+
+
