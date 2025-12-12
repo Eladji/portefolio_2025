@@ -5,8 +5,5 @@
     "api/**/*.js": {
       "runtime": "nodejs18.x"
     }
-  },
-  "env": {
-    "DISCORD_WEBHOOK_URL": "https://discord.com/api/webhooks/1448957528502304829/CRcomDqUfBo0s-e07zWKtIgev0d_uGWqOKSMCZuJKIjYVagD3iYY9VYgEgWkbX_v--or"
   }
 }
