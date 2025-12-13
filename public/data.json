@@ -1,0 +1,61 @@
+{
+  "about": {
+    "name": "Eladji Fofana",
+    "title": "Développeur fullstack",
+    "location": "École Hexagone",
+    "bio": "Je suis étudiant en Bachelor Informatique à École Hexagone, passionné par le développement fullstack, l'IoT et les solutions intelligentes. Je développe des API, interfaces, et des systèmes embarqués.",
+    "technos": ["Python", "JavaScript", "React", "Go", "Rust", "C++", "Arduino", "MySQL"]
+  },
+  "projects": [
+    {
+      "title": "Project 1",
+      "featured": false,
+      "image": "https://www.figma.com/api/mcp/asset/42f4ffee-e1ca-4a3d-9202-d8a3cebe437e",
+      "type": "Web App",
+      "description": "Application web pour...",
+      "link": "#"
+    },
+    {
+      "title": "Project 2",
+      "featured": true,
+      "image": "https://www.figma.com/api/mcp/asset/40561445-cf1a-4daa-9fca-c7c38e417c85",
+      "type": "Mobile App",
+      "description": "Application mobile pour...",
+      "link": "#"
+    },
+    {
+      "title": "Project 3",
+      "featured": true,
+      "image": "https://www.figma.com/api/mcp/asset/2599b262-1663-4e69-ba27-d7eb4f893623",
+      "type": "IoT",
+      "description": "Projet embarqué avec Arduino/ESP32",
+      "link": "#"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend",
+      "items": [
+        {"name":"Python","source":"École Hexagone"},
+        {"name":"APIs","source":"École Hexagone"},
+        {"name":"MySQL","source":"École Hexagone"},
+        {"name":"Rust, Go","source":"Autodidacte"}
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        {"name":"JavaScript","source":"École Hexagone"},
+        {"name":"PHP","source":"École Hexagone"},
+        {"name":"React & UX","source":"École Hexagone"}
+      ]
+    },
+    {
+      "category": "IoT & Embedded",
+      "items": [
+        {"name":"Arduino / ESP32","source":"École Hexagone"},
+        {"name":"3D Modeling & Printing","source":"Lycée — Les Pierres Vives"}
+      ]
+    }
+  ]
+}
