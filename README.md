@@ -127,6 +127,7 @@ Le formulaire contact enverra maintenant les messages vers Discord via ton backe
 - Les images ont des attributs `alt` descriptifs.
 - Contrastes de couleurs vérifiés par rapport à la maquette (foncés / clairs).
 - Le formulaire effectue une validation côté client (JS) : champs requis et format d'email.
+- Test lighthouse : https://lighthouse-metrics.com/lighthouse/checks/17ff9c4e-02a6-4460-a43d-95cb15263ba3
 
 ---
 
