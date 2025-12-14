@@ -11,7 +11,7 @@ Ce dépôt contient l'intégration HTML/CSS/Tailwind d'une maquette Figma de por
 ### Capture d'écran
 Ajoutez ici vos captures d'écran (desktop, tablette, mobile) dans le dossier `assets/` puis insérez les images ci-dessous :
 
-- Aperçu desktop : ![desktop screenshot](./assets/desktop.png")
+- Aperçu desktop : ![desktop screenshot](./assets/desktop.png)
 - Aperçu tablet  : ![tablet screenshot](./assets/tablet.png)
 - Aperçu mobile  : ![mobile screenshot](./assets/mobile.png)
 
