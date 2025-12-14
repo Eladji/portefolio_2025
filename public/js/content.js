@@ -1,10 +1,9 @@
 (function(){
   async function loadData(){
     try{
-      // Try both /public/data.json (local server) and /data.json (Vercel root)
-      let res = await fetch('/public/data.json');
-      if (!res.ok) res = await fetch('/data.json');
-      if (!res.ok) throw new Error('Failed to load data.json');
+      // Fetch data via server-side proxy so secrets remain on the server
+      const res = await fetch('/api/data');
+      if (!res.ok) throw new Error('Failed to load data from server');
       const data = await res.json();
       renderAbout(data.about);
       renderProjects(data.projects);

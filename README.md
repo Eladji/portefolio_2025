@@ -120,6 +120,13 @@ Remarques :
 - Ne commite jamais de clés secrètes (webhooks, tokens) dans le dépôt. Utilise les variables d'environnement Vercel.
 - `vercel.json` est configuré pour exécuter `npm run build` pendant le build et laisser Vercel détecter les fonctions dans `/api`.
 
+**JSONBin (contenu dynamique) :**
+- Pour stocker le contenu dynamique hors dépôt, vous pouvez utiliser JSONBin.io.
+- Ajoutez ces variables d'environnement dans Vercel Settings:
+  - `JSONBIN_URL` : l'URL complète de votre bin (ex. `https://api.jsonbin.io/v3/b/<BIN_ID>/latest`)
+  - `JSONBIN_KEY` : la clé secrète (X-Master-Key) fournie par JSONBin
+- Le site appelle `/api/data` qui s'occupe de récupérer le contenu depuis JSONBin (clé côté serveur uniquement).
+
 **Tester le formulaire :**
 - Une fois déployé, le formulaire POST vers `/api/contact` enverra des notifications Discord si `DISCORD_WEBHOOK_URL` est présent et valide.
 
